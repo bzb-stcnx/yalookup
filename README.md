@@ -3,7 +3,7 @@ yet another lookup
 
 [![NPM](https://nodei.co/npm/yalookup.png?compact=true)](https://nodei.co/npm/yalookup/)
 
-[![stable](http://badges.github.io/stability-badges/dist/experimental.svg)](http://github.com/badges/stability-badges)
+[![stable](http://badges.github.io/stability-badges/dist/stable.svg)](http://github.com/badges/stability-badges)
 
 [![js-standard-style](https://img.shields.io/badge/code%20style-standard-brightgreen.svg?style=flat)](https://github.com/feross/standard)
 
