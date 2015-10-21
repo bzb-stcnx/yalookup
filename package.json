@@ -4,7 +4,11 @@
   "description": "yet another lookup",
   "main": "index.js",
   "scripts": {
-    "test": "jasmine"
+    "clean:deps": "rimraf node_modules/*",
+    "clean": "npm run clean:deps && npm install",
+    "test": "jasmine",
+    "preversion": "npm test || echo -e '\\e[43mWARNING\\e[49m tests failed'",
+    "watch": "chokidar 'index.js' 'spec/support/fixtures/' 'spec/support/*.js' 'spec/*.js' -c 'npm test' --initial"
   },
   "repository": {
     "type": "git",
@@ -23,7 +27,9 @@
   },
   "homepage": "https://github.com/bzb-stcnx/compliance#readme",
   "devDependencies": {
+    "chokidar-cli": "^1.0.1",
     "jasmine": "^2.3.2",
-    "mockery": "^1.4.0"
+    "mockery": "^1.4.0",
+    "rimraf": "^2.4.3"
   }
 }
