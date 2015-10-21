@@ -1,6 +1,6 @@
 {
   "name": "yalookup",
-  "version": "0.0.0",
+  "version": "0.0.1",
   "description": "yet another lookup",
   "main": "index.js",
   "scripts": {
