@@ -1,14 +1,10 @@
 # yalookup
+[![NPM](https://nodei.co/npm/yalookup.png?compact=true)](https://nodei.co/npm/yalookup/)
+[![build status](https://secure.travis-ci.org/bzb-stcnx/yalookup.png)](http://travis-ci.org/bzb-stcnx/yalookup)
+[![js-standard-style](https://img.shields.io/badge/code%20style-standard-brightgreen.svg?style=flat)](https://github.com/feross/standard)
+
 yet another lookup!
 look for a file searching from the current or a given directory up.
-
-[![NPM](https://nodei.co/npm/yalookup.png?compact=true)](https://nodei.co/npm/yalookup/)
-
-[![stable](http://badges.github.io/stability-badges/dist/stable.svg)](http://github.com/badges/stability-badges)
-
-[![build status](https://secure.travis-ci.org/bzb-stcnx/yalookup.png)](http://travis-ci.org/bzb-stcnx/yalookup)
-
-[![js-standard-style](https://img.shields.io/badge/code%20style-standard-brightgreen.svg?style=flat)](https://github.com/feross/standard)
 
 # motivation
 very lean recursive implementation restricted to using only node's core modules.
@@ -36,7 +32,7 @@ var filepath = lookup('package.json', { cwd: __dirname })
 * **return** `string` the filepath of the file if found, `null` otherwise
 
 # status
-stable
+[![stable](http://badges.github.io/stability-badges/dist/stable.svg)](http://github.com/badges/stability-badges)
 
 # license
 (C) Copyright 2015, bzb-stcnx,
